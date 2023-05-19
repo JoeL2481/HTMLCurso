@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="application-name" content="Inscripción Mar del Plata Programa 2023"/>
+        <meta name="author" content="Joel Pascuan">
+        <meta name="generator" content="VS Code">
+        <meta name="keywods" content="Html,utn,mdq,programa">
+        <title>Formulario inscripción</title>
+    </head>
+<body style="background-color: tan;">
+    <header>
+        <h1 align="center"><u>Formulario de Inscripción</u></h1>
+        <h2>Mar del Plata Programa 2023 UTN</h2>
+        <u>Por favor complete los siguientes datos:</u>
+        <hr>
+    </header>
+    <article>
+        <form>
+            <ul type="circle">
+            <li><label for="nombres">Nombre/s</label></li>
+            <input type="text" id="nombres" name="Nombres" value="Joel">
+            
+            <br><br>
+            
+            <li><label for="apellidos">Apellidos/s</label></li>
+            <input type="text" id="apellidos" name="Apellidos" value="Pascuan">
+            
+            <br><br>
+           
+            <li><label for="correo">Correo</label></li>  
+            <input id="correo"  type="email" name="correo" placeholder="Ingrese su mail" required>
+            
+            <br><br>
+           
+            <li><label for="fechanac">Fecha de Nacimiento</label></li>
+            <input type="date" min="1940-01-01" max="2006-01-01" id="fechanac" name="fecha de nacimiento">
+            
+            <br><br>
+            
+            <li><label for="edadd">Edad</label></li> 
+            <input id="edadd" type="number" min="18" name="edad" max="99" required placeholder="23">
+            
+            <br><br>
+            
+            <li><label for="dni">Dni Derecho y Dorso</label></li> 
+            <input type="file" accept=".pdf,.png,.jpg,.jpeg" multiple name="dni" id="dni">
+           
+            <br><br>
+           
+            <li>Trabaja actualmente?</li>
+           
+            <label for="trabajasi">Si</label><input type="radio" checked value="si" name="trabaja" id="trabajasi">
+            <br>
+            <label for="trabajano">No</label><input type="radio" value="no" name="trabaja" required id="trabajano">
+            
+            <br><br>
+            <li><label for="pais">Seleccione Pais</label></li>
+                <select name="" required id="pais">
+                <option value="">Pais de Nacimiento</option>
+                <optgroup label="Latam"> </optgroup>
+                <option value="1">Argentina</option>
+                <option value="1">Uruguay</option>
+                <option value="1">Brasil</option>
+                <optgroup Label="Europa">
+                <option value="2">Francia</option>
+                <option value="2">España</option>
+                </optgroup>
+            </select>
+        
+        </ul>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+        </form>
+    </article>
+</body>
+</html>
