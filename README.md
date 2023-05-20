@@ -1,4 +1,2 @@
 # HTMLCurso
 html
-hola
-holaa
