@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #e0d7c9;
+    
+}
+.containt{
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 900px;
+  
+}
+
+header{
+    background-color:#113a04e8;
+    text-align: center;
+    color: white;
+}
+nav{
+    background-color: #113a04af; 
+    color: #fff;
+}
+nav img{
+    margin: 0px 42.5%;
+}
+nav p{
+    margin: 0px 42.5%;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 25px;
+}
+.datos-contacto{
+    background-color: #113a04e8; 
+    color: rgb(255, 255, 255);
+    height: auto;
+    float: left;
+    line-height: 20px;
+    padding: 10px 30px;
+    text-align: left;
+    border-radius: 0 0 0 20px;
+    margin-right: 0px;
+    
+}
+.datos-contacto ul li{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+.datos-contacto p, .datos-contacto ul li p{
+    color: rgb(0, 0, 0);
+    background-color: #e0d7c9;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.datos-formacion{
+    float:right;
+    width: 543px;
+    background-color: #d2e7d7;
+    border-radius: 0 0 20px 0;
+    margin-left: 0px;
+    height: 1110px;
+}
+
+.datos-formacion p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 19px;
+    padding: 15px 0px;
+}
+.datos-formacion article{
+    background-color: #acbeb4;
+    
+}
+.datos-formacion article ul li{
+    list-style-type: none;
+    padding: 10px 30px;
+    line-height: 48px;
+    font-size: 15px;
+    font-weight: 200px;
+}
