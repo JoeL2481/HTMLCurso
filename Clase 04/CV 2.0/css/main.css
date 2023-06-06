@@ -42,7 +42,7 @@ nav p{
     padding: 10px 30px;
     text-align: left;
     border-radius: 0 0 0 20px;
-    margin-right: 0px;
+   
     
 }
 .datos-contacto ul li{
@@ -63,11 +63,11 @@ a{
 }
 
 .datos-formacion{
-    float:right;
-    width: 543px;
+    float:left;
+    width: 546px;
     background-color: #d2e7d7;
     border-radius: 0 0 20px 0;
-    margin-left: 0px;
+    
     height: 1110px;
 }
 
