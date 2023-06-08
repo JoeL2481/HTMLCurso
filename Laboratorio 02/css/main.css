@@ -159,8 +159,8 @@ textarea{
     margin-left: 8px;
     font-weight: 400;
 }
-.inputs::content, textarea:active{
-    background-color: aqua;
+.inputs:focus, textarea:focus{
+    outline: none;
 }
 
 .boton-form{
