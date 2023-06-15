@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.squares {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    
+    height: 50vh;
+    /* flex direction  de lositems
+    flex wrap de la linea
+    flex flow (direction de los items y luego wrap la linea) 
+    ejemplo: column o row reverse... luego wrap o no wrap reverse
+    https://codepen.io/enxaneta/full/adLPwv/ */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+}
+.squares div{
+    margin: 10px;
+   
+    width: 40px;
+    color: white;
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.squares div:nth-child(1){
+    background-color: #00ffa8;
+    height: 100px;
+    width: 100px;
+}
+.squares div:nth-child(3){
+    background-color: #1cf295;
+}
+.squares div:nth-child(5){
+    background-color: #39e583;
+}
+.squares div:nth-child(7){
+    background-color: #55d870;
+    height: 100px;
+    width: 100px;
+}
+.squares div:nth-child(9){
+    background-color: #71cb5d;
+}
+.squares div:nth-child(11){
+    background-color: #8ebe4b;
+}
+.squares div:nth-child(13){
+    background-color: #aab138;
+    height: 100px;
+    width: 100px;
+}
+.squares div:nth-child(15){
+    background-color: #c6a425;
+}
+.squares div:nth-child(17){
+    background-color: #e39713;
+    height: 100px;
+    width: 100px;
+}
+.squares div:nth-child(19){
+    background-color: #ff8a00;
+    height: 100px;
+    width: 100px;
+}
+
+.squares  .veinte{
+    align-self: flex-start;
+    align-content: space-between;
+    height: 100px;
+    width: 100px;
+    order: -1;
+    background-color: #0000ff;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+
+.panel-costado{
+    background-color: #10101000;
+    display: flex;
+    color: black;
+    margin: 10px 0px;
+    flex-flow: column;
+    height: 50vh;
+    width: 20vh;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0px 5px 5px 0px;
+    border: 2px solid black;
+    float: left;
+    
+
+}
+
+.panel-costado li{
+    border-radius: 0px 5px 5px 0px;
+    border: 2px solid black;
+    font-weight: bolder;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+   
+}
+main{
+    width: 69vh;
+    margin: 10px 1px 0px 10px;
+    display: flex;
+    float:left;
+    background-color: #10101000;
+    border-radius: 5px;
+    border: 2px solid black;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: flex-start;
+}
+.img-container{
+    width: 500px;
+    height: 500px;
+    background-color: #ccffcc;
+    margin: 10px;
+    border-radius: 20px;
+    
+} 
+.comidas{
+    background-color: blue;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
