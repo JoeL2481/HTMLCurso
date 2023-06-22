@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <!--
         <div class="squares">
             <div>1</div>
             <div>2</div>
@@ -30,27 +34,78 @@
             <div>19</div>
             <div class="veinte">20</div>
         </div>
-        
+        -->
             <nav class="panel-costado">
+                <div class="div-imagen">
+                    <img src="./circulocomida.png" alt="">
+                </div>
+                   
+                 <ul class="listas-li">
+                    <li> 
+                        <i class="fa-solid fa-book"></i> 
+                        Libro
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-camera"></i>
+                        Fotos
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-receipt"></i>
+                        Recetas
+                    </li>
+                </ul>
                 
-                    <li>Libro</li>
-                    <li>Fotos</li>
-                    <li>Recetas</li>
               
             </nav>
         
         <main>
             <div class="img-container">
-                <img src="" alt="Cortando pan">
+                <img src="https://picsum.photos/900/500" alt="imagen">
+                <p class="img-parrafo-uno">Que es la comida?</p>
+                <p class="img-parrafo-dos">Lorem</p>
             </div>
-            <div class="comidas">
-                <div>Comida1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
+            
+            <nav class="panel-medio-container">
+                <ul class="panel-items">
+                    <li>Inicio</li>
+                    <li>Comidas</li>
+                    <li>Compras</li>
+                    <li>Contacto</li>
+                </ul>
+
+                <div class="panel-busqueda">
+                    <p class="panel-busqueda-partes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloribus corporis est autem id.</p>
+                    <input class="panel-busqueda-partes" type="text" placeholder="Buscar">
+                    <button  class="panel-busqueda-partes busqueda-submit"type="submit">Buscar</button>
+                </div>
+
+            </nav>
+            <div class="comidas-container">
+               <div class="cards">
+                    <img src="https://picsum.photos/200/200" alt="imagen">
+                    <a href="#">Comida 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, officiis repellat fugiat dolores doloribus quo odit aspernatur nemo ipsa eaque sint voluptatem illum sequi aliquid quidem. Cupiditate aperiam expedita cumque?</p>
+                   
+               </div>
+               <div class="cards">
+                    <img src="https://picsum.photos/200/200" alt="imagen">
+                    <a href="#">Comida 2 Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae placeat, incidunt, voluptatem fuga architecto maiores repellat illo nihil voluptate libero sit asperiores eligendi quisquam temporibus beatae ipsum natus iure harum?</p>
+               </div> 
+               <div class="cards">
+                    <img src="https://picsum.photos/200/200" alt="imagen">
+                    <a href="#">Comida 3 Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, officiis repellat fugiat dolores doloribus quo odit aspernatur nemo ipsa eaque sint voluptatem illum sequi aliquid quidem. Cupiditate aperiam expedita cumque?</p>
+               </div>
+               <div class="cards">
+                    <img src="https://picsum.photos/200/200" alt="imagen">
+                    <a href="#">Comida 4 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae placeat, incidunt, voluptatem fuga architecto maiores repellat illo nihil voluptate libero sit asperiores eligendi quisquam temporibus beatae ipsum natus iure harum?</p>
+               </div>
 
             </div>
         </main>
+        
        
     
 </body>
