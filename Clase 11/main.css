@@ -1,0 +1,10 @@
+.text-secondary{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+#uno{
+    color: red;
+}

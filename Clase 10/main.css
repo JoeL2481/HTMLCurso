@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+
+
+
+header{
+    height: auto;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+img{
+   
+    max-width: 150px;
+    height: auto;
+    background-color: white;
+    border-radius: 100%;
+    border: 0.5em solid black;
+}
+aside{
+    width: 25%;
+    background-color: #aaba7e;
+    float: left;
+    height: auto;
+    color: #505050;
+    display: flex ; 
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px auto;
+    
+}
+
+aside h2{
+    background-color: #f98f4d;
+    justify-self: stretch !important;
+    text-align: center;
+    font-size: 1.2em;
+   
+}
+aside p{
+    background-color: hotpink;
+    padding: 10px;
+   
+}
+main{
+    margin: 10px auto;
+    width: 60%;
+    background-color: aqua;
+    padding: 10px;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    
+}
+
+section{
+    background-color: forestgreen;
+    padding: 10px;
+    margin: 10px 0px;
+
+}
+
+h3{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+article{
+    background-color: bisque;
+   
+    
+}
+
+.experiencia{
+    display: grid;
+    grid-template-rows: 6% repeat(3,100px);
+    place-content: center;
+    
+ 
+   
+}
+h4{
+    background-color: gold;
+    text-align: center;
+}
+
+
+@media (max-width:768px) {
+    
+    aside{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    main{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    
+header{
+  
+    background-color: rgb(0, 255, 30);
+    text-align: center;
+    color: rgb(104, 2, 2);
+    display: grid;
+    grid-template-rows: 100px 120px;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    place-content: center;
+    justify-items: center;
+    height: auto;
+}
+
+img{
+    width: 100px;
+}
+
+}

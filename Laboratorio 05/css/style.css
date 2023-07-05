@@ -1,0 +1,180 @@
+body{
+    font-family: 'Nunito', sans-serif!important;
+}
+body{
+    background-color: #868686 !important  ;
+ 
+    
+}
+.FirstPhotos{
+    background-color: #171717 !important;
+}
+.Contains{
+    background-color:  #171717!important;
+}
+.card-text{
+    text-align: justify;
+}
+.CardBack{
+    background-color: #00000000;
+}
+.CardMiddleTop{
+    background-color: rgb(240, 240, 240)!important;
+    border: 0 !important;
+    border-radius: 35px!important;
+    box-shadow: -0.5em 0.5em 1em rgba(0, 0, 0, 0.669);
+}
+.cards{
+    border-radius: 0px 0px 20px 20px!important;
+}
+
+
+.CardMiddleBottomOne{
+    background-color: rgb(50, 50, 50);
+    color: #fff!important;
+    
+}
+.CardMiddleBottomTwo{
+    background-color: rgb(100, 100, 100) !important;
+    color: #ccc !important;
+}
+
+.CardMiddleBottomThree{
+    background-color: rgb(150, 150, 150) !important;
+    color: #f9f9f9 !important;
+}
+.CardButtonOne{
+    background-color: rgb(23, 23, 23)!important;
+    color: rgb(255, 255, 255)!important;
+    outline: none !important;
+    border: none !important;
+}
+
+.CardButtonTwo{
+    background-color: rgb(72, 72, 72)!important;
+    color: rgb(255, 255, 255)!important;
+    outline: none !important;
+    border: none !important;
+}
+
+.CardButtonThree{
+    background-color: rgb(200, 200, 200)!important;
+    color: rgb(0, 0, 0)!important;
+    outline: none !important;
+    border: none !important;
+}
+
+.FivePhotosContain{
+    border-radius: 20px !important;
+    background-color: #b7b7b7!important;
+    padding: 1em!important;
+    box-shadow: -0.5em 0.5em 1em rgba(0, 0, 0, 0.669);
+}
+
+.FivePhotos{
+    background-color: #646464;
+    color: #ffffff;
+    border-right: 1px solid black;
+    
+}
+
+.FivePhotos img{
+    cursor: pointer;
+}
+.FinalCursor{
+    cursor: pointer;
+}
+.btn-primary{
+    width: 100%;
+}
+
+
+.button-hover-container{
+    position: relative;
+}
+
+.button-hover{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    margin: 10% 10%;
+    transition: opacity 300ms ease-in-out;
+    opacity: 5%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.costado1:hover .button-hover{
+    opacity: 1;
+   
+    
+}
+
+.LeftEnd{
+    background-color: rgb(200, 200, 200) !important;  
+    box-shadow: -0.5em 0.5em 1em rgba(0, 0, 0, 0.669);
+}
+
+.LeftEnd button{
+    background-color: rgb(149, 149, 149);
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+
+.btn:hover{
+    background-color: #e9e9e9!important;
+    color: black!important;
+}
+
+.btn:active{
+    background-color: #2d1616!important;
+    color: white!important;
+    font-weight: 800!important;
+    font-size: 1.1em !important;
+}
+
+.modalimgcontainer{
+    background-color: #000000cf !important;
+}
+.ModalBackground{
+    background-color: #00000000!important;
+    color: white !important;
+}
+.ModalButtonContainer{
+    position: relative;
+}
+.ModalButton{
+    position: absolute;
+    border: 1px solid black;
+    padding: 0px 2em!important;
+    border-radius: 20px 0px 0px 0px;
+    bottom:0;
+    right: 0;
+    width: 50%;
+    
+
+}
+
+.ModalButton:hover{
+    background-color: black;
+    color: #fff;
+    border: 1px solid white;
+}
+
+.ModalButton:active{
+    font-size: 1.05em !important;
+    background-color: #2d1616!important;
+}
+
+i{
+    color: #696969;
+    display: block;
+}
+
