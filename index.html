@@ -306,18 +306,22 @@
                 <button type="button" class="btn-close  btn-close-white  p-2" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
             <div class="modal-body p-0 ">
-               <div class="row" >
-                    <div class=" col-5 ModalBackground g-0 p-1">
+               <div class="d-flex flex-row justify-content-center" >
+                    <div class=" row ModalBackground g-0 p-1">
                             <!--  <div class="col-12"><img  src="./Imagenes/middle/1.jpg" class="d-block w-100" alt="remera"></div>
                             <div class="col-6"><img  src="./Imagenes/middle/2.jpg" class="d-block w-100" alt="remera"></div>
                             <div class="col-6"><img  src="./Imagenes/middle/3.jpg" class="d-block w-100" alt="remera"></div>-->
                            
 
 
-                           <row>
 
-                            <div id="carouselExampleIndicators" class=" carousel slide col-12" data-bs-ride="true">
-                              
+
+                            <div id="carouselExampleIndicators" class="col-5 carousel slide" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
                                     <img src="./Imagenes/middle/1.jpg" class="d-block w-100" alt="...">
@@ -337,23 +341,9 @@
                                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Next</span>
                                 </button>
-                            </row>
-                            <row>
                               </div>
-                              <div class="carousel-indicators col-12 position-relative ImgSelectionModal" >
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-                                    <img src="./Imagenes/middle/1.jpg" class="d-block w-100" alt="...">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
-                                    <img src="./Imagenes/middle/2.jpg" class="d-block w-100" alt="...">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
-                                    <img src="./Imagenes/middle/3.jpg" class="d-block w-100" alt="...">
-                                </button>
-                              </div>
-                            </row> 
                             
-                           
+                    
                     
                     </div> 
 
@@ -364,7 +354,7 @@
                         
               
 
-                    <div class=" col-7 d-flex flex-column ModalBackground ModalButtonContainer p-1 justify-content-center ">
+                    <div class="d-flex flex-column ModalBackground ModalButtonContainer p-1 justify-content-center ">
                             <h2 class="text-center">Titulo</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloribus quibusdam sint laudantium incidunt temporibus recusandae quod veniam quis asperiores?</p>
                             <h4 >colores</h4>

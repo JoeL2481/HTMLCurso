@@ -9,6 +9,12 @@ body{
 .FirstPhotos{
     background-color: #171717 !important;
 }
+.botones{
+    border: 0.1em solid black  !important;
+    height: 1em!important;
+    width: 1em!important;
+    border-radius: 100%!important;
+}
 .Contains{
     background-color:  #171717!important;
 }
@@ -100,10 +106,13 @@ body{
     width: 80%;
     margin: 10% 10%;
     transition: opacity 300ms ease-in-out;
-    opacity: 5%;
+    opacity: 10%;
     border-radius: 20px;
     outline: none;
     border: none;
+    background-color: #171717;
+    color: white;
+    border: 0.1em solid white;
 }
 
 .costado1:hover .button-hover{
@@ -154,10 +163,10 @@ body{
     position: absolute;
     border: 1px solid black;
     padding: 0px 2em!important;
-    border-radius: 20px 0px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     bottom:0;
-    right: 0;
-    width: 50%;
+    right: 10%;
+    width: 40%;
     
 
 }
@@ -172,9 +181,36 @@ body{
     font-size: 1.05em !important;
     background-color: #2d1616!important;
 }
-
+.fa-heart{
+    position: absolute;
+    bottom: 3.5%;
+    right: 4%;
+    user-select: none;
+}
+.fa-heart:hover{
+    color: red;
+    cursor: pointer;
+    
+}
+.fa-heart:active{
+    font-size: 2em;
+}
 i{
     color: #696969;
     display: block;
 }
 
+.ImgSelectionModal{
+    height: 100px;
+}
+
+.ImgSelectionModal button{
+    display: inline-block!important;
+    height: 100%;
+}
+
+.ImgSelectionModal button img{
+    height: 100%!important;
+    
+    
+}
